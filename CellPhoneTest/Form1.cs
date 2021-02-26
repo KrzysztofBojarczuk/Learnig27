@@ -46,5 +46,10 @@ namespace CellPhoneTest
             modelLabel.Text = myPhone.Model;
             priceLabel.Text = myPhone.Price.ToString("c");
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
